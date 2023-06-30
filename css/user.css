@@ -1,0 +1,18 @@
+.user__avatar {
+    width: 3rem;
+    flex-shrink: 0;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.user__block {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.user__nickname {
+    font-size: 1.25rem;
+    font-weight: 500;
+}

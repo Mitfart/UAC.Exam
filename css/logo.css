@@ -1,0 +1,10 @@
+.logo {
+    color: var(--c-secondary);
+    font-size: 1.5rem;
+}
+.logo span {
+    font-size: 1.5em;
+    font-weight: 900;
+    line-height: 0;
+    color: var(--c-primary);
+}

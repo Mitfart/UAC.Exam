@@ -1,0 +1,39 @@
+.modal {
+    z-index: 100;
+}
+
+.modal__body {
+    width: 80%;
+    min-width: 280px;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    text-align: center;
+
+    padding: 1rem;
+    gap: .5rem;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    Translate: -50% -50%;
+    z-index: 5;
+
+    background-color: var(--c-base);
+}
+
+.modal__darker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.modal__close {
+    display: none;
+}

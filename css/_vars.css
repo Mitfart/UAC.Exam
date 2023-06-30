@@ -1,0 +1,17 @@
+:root {
+    --f-family: "Roboto", serif, sans-serif;
+    --f-size: 16px;
+
+    --m-sm: 321px;  /* not effect, just store */
+    --m-md: 769px;  /* not effect, just store */
+    --m-lg: 1024px; /* not effect, just store */
+    --m-xl: 1225px; /* not effect, just store */
+
+    --c-base: white;
+    --c-secondary: black;
+    --c-primary: #fa2f2f;
+
+    --c-rgb-base: 255, 255, 255;
+    --c-rgb-secondary: 0, 0, 0;
+    --c-rgb-primary: 250, 47, 47;
+}

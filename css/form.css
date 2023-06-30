@@ -1,0 +1,10 @@
+.btn,
+button {
+    padding: 1em 1.5em;
+
+    background-color: var(--c-primary);
+    color: var(--c-base);
+    border: none;
+
+    cursor: pointer;
+}
